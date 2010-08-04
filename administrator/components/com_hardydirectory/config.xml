@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<config>
-    <params>
-    </params>
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <params>
+    <param name="Front Page Article" type="text"></param></params>
 </config>

@@ -1,0 +1,267 @@
+
+/**************************
+ * Styles
+ */
+.unpublished a
+{
+	color:#ccc !important;
+}
+.listing_img
+{
+	width:260px;overflow:hidden;line-height:290px;height:290px;background:#ddd;
+}
+.grey_title
+{
+	font-size:28px;
+	font-weight:normal;
+	color: #55555;
+	margin:15px 15px 15px 0px;
+	width:380px;
+	display:block;
+}
+.orange_title
+{
+	font-size:28px;
+	font-weight:normal;
+	color: #F37321;
+	margin:15px 15px 15px 0px;
+	width:380px;
+	display:block;
+}
+a.button_orange
+{
+	background-color: #F37321;
+	color: #FFFFFF !important;
+	font-weight:bold;
+	display:block;
+	width:130px;
+	padding:6px;
+	text-decoration:none;
+	text-align:center;
+	
+}
+.edit_button
+{
+	position:relative;
+	float:left;
+}
+.edit_button a
+{
+	background:#ccc;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	padding:4px;
+	text-decoration:none;
+}
+
+table.add_new
+{
+	width:100%;
+}
+table.add_new tr
+{
+	margin:10px 0;
+}
+table.add_new td.add_new
+{
+	padding:5px;
+	width:750px;
+}
+table.add_new td.add_label
+{
+	padding:5px;
+	width:180px;
+	font-size:14px;
+	text-align:right;
+}
+
+.directory_header
+{
+	padding: 0 0 15px 15px;
+}
+.directory_content
+{
+	background-color:#eeeeee;
+	padding: 15px 0 15px 15px;	
+	margin-top:15px;
+}
+
+.dir_category_li
+{
+	width:160px;
+	display:block;
+	padding:10px 13px 0;
+	
+	list-style:none;
+	background:#ffffff url(../images/plus_sign.png) 162px 13px no-repeat;
+}
+
+.dir_category_li:hover
+{
+	background:transparent url(../images/gry_sign.png) 162px 13px no-repeat;
+}
+.dir_category_li a
+{
+	text-decoration:none;
+	display:block;
+	width:160px;
+	color:#000000;
+	font-weight:normal;
+	font-size:14px;
+	padding-bottom:6px;
+	border-bottom:1px solid #cccccc;	
+}
+ul.cat_listings
+{
+	background-color:#fff;
+	margin:0;
+	padding:0;
+	width:186px;
+}
+.cat_listing_li
+{
+	padding:5px 0px 5px 40px;
+}
+.cat_listing_li a
+{
+	color: #555;
+	text-transform:capitalize;
+	font-size:13px;	
+	border-bottom:none;	
+	text-decoration:none;
+}
+
+a.last_li
+{
+	border:none !important;
+}
+button
+{
+	padding:3px;	
+}
+
+/**************************
+ * Grids
+ */
+#maincol_full, .maincol_full
+{
+	width:930px;
+}
+
+.w_50
+{  
+	display:block;
+	width: 300px;
+	padding-right:5px;
+}
+
+.w_70
+{ 
+	display:block;
+	width: 680px;
+}
+
+.w_80
+{ 
+	display:block;
+	width: 730px;
+}
+
+.w_20
+{
+	display:block;
+	width: 180px;
+}
+
+/**************************
+ *  Positioning
+ */
+.left
+{
+	position:relative;
+	float:left;
+}
+
+.padtop_100
+{
+	padding:100px 0 0 50px;
+}
+div.clear
+{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.padbottom_15
+{
+	padding-bottom:15px;
+}
+.listing_submit
+{
+	margin-left:10px;
+}
+.listing_cancel
+{
+	margin-left:300px;
+}
+
+
+/****************************
+ * Sizing
+ */
+
+.edit_menu li form
+{
+	display:block;
+	width:260px;
+	position:relative;float:left;
+}
+
+.edit_menu
+{
+	list-style:none;
+	background: url(http://www.pacificnewmedia.com/jon/hardyteam/templates/benhardy/images/navbg.png);
+	bottom: 0px;
+	height: 52px;
+}
+
+.edit_menu li
+{
+	display:inline;
+	position:relative;float:left; 
+	padding:15px 0 0 15px;
+}
+
+.edit_menu li a
+{
+	background:#ccc;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	padding:4px;
+	text-decoration:none;
+}
+
+.ajax_img
+{
+	width:240px;
+	border-right:1px solid #ccc;
+}
+
+.thumbnail_img
+{
+	width:214px;
+	height: 90px;
+	border-right:1px solid #555;
+	text-align:center;
+	overflow:hidden;
+}
+
+.thumbnail_img img
+{
+	width:163px;
+}
+
+
+

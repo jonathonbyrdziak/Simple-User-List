@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Hardy Directory</name>
+    <author>Jonathon Byrd</author>
+    <creationDate>12/07/2010</creationDate>
+    <license>Copyright (c) 2010 - All Rights Reserved</license>
+    <version>1.0</version>
+    <description>This component was created by Not Web Design's Joomla Component Creator.</description>
+
+    <!-- installation part -->
+    <install>
+        <queries>
+           
+        </queries>
+    </install>
+
+    <installfile>install.hardydirectory.php</installfile>
+    <uninstallfile>uninstall.hardydirectory.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_hardydirectory">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>hardydirectory.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>media</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_hardydirectory.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="js/ThemeOffice/component.png">Hardy Directory</menu>
+    <submenu>
+        <menu link="option=com_hardydirectory">Hardy Directory</menu>
+    </submenu>
+
+    <files>
+        <filename>hardydirectory.xml</filename>
+    </files>
+    <files folder="administrator/components/com_hardydirectory">
+        <filename>config.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>install.hardydirectory.php</filename>
+        <filename>hardydirectory.php</filename>
+        <filename>uninstall.hardydirectory.php</filename>
+        <folder>helpers</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+        <folder>includes</folder>
+        <folder>libraries</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_hardydirectory.menu.ini</language>
+        <language tag="en-GB">en-GB.com_hardydirectory.ini</language>
+    </languages>
+
+    </administration>
+
+    <params></params>
+
+</install>
